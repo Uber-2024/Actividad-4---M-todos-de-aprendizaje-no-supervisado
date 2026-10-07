@@ -1,0 +1,23 @@
+{
+  "_descripcion": "Red de transporte mínima para el proyecto de aprendizaje no supervisado. Esta red se usa para derivar rutas planificadas y construir un dataset sintético de viajes agrupables.",
+  "stations": [
+    { "name": "Aeropuerto", "accessible": true },
+    { "name": "Terminal Norte", "accessible": true },
+    { "name": "Universidad", "accessible": true },
+    { "name": "Centro Historico", "accessible": true },
+    { "name": "Hospital Central", "accessible": true },
+    { "name": "Terminal Sur", "accessible": true }
+  ],
+  "connections": [
+    { "origin": "Aeropuerto", "destination": "Terminal Norte", "minutes": 25, "line": "Bus A1", "accessible": true },
+    { "origin": "Aeropuerto", "destination": "Universidad", "minutes": 18, "line": "Bus A2", "accessible": true },
+    { "origin": "Terminal Norte", "destination": "Centro Historico", "minutes": 10, "line": "Metro Azul", "accessible": true },
+    { "origin": "Terminal Norte", "destination": "Hospital Central", "minutes": 15, "line": "Bus B", "accessible": true },
+    { "origin": "Terminal Norte", "destination": "Terminal Sur", "minutes": 16, "line": "Bus B", "accessible": true },
+    { "origin": "Universidad", "destination": "Centro Historico", "minutes": 14, "line": "Metro Verde", "accessible": true },
+    { "origin": "Universidad", "destination": "Terminal Sur", "minutes": 12, "line": "Bus C", "accessible": true },
+    { "origin": "Hospital Central", "destination": "Centro Historico", "minutes": 8, "line": "Metro Azul", "accessible": true },
+    { "origin": "Hospital Central", "destination": "Terminal Sur", "minutes": 9, "line": "Bus C", "accessible": true },
+    { "origin": "Centro Historico", "destination": "Terminal Sur", "minutes": 11, "line": "Metro Azul", "accessible": true }
+  ]
+}

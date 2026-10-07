@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.xlsx
+aprendizaje_no_supervisado/data/*.csv
+aprendizaje_no_supervisado/artifacts/*
+transport.db
+*.db-journal
